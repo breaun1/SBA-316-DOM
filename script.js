@@ -1,13 +1,20 @@
+//SELECTED HTML VARIABLES
 const body = document.querySelector("body")
-const h2Var = document.createElement("h2");
-const sec1 = document.createElement("section");
-const footer = document.createElement("footer");
+// const sec1 = document.querySelector("section");
+// const footer = document.querySelector("footer");
+const input = document.querySelector("input");
+const h2Var = document.querySelector("h2");
 
-body.appendChild(h2Var);
-body.appendChild(sec1);
-body.appendChild(footer);
+//ATTRIBUTES
+input.setAttribute("type", "text");
+input.placeholder = "What's on the schedule";
 
+//CLASSES
+input.classList.add = ("input-field");
 
-h2Var.classList.add = ("h2");
-h2Var.textContent = "Hello";
+//TEXT-CONTENT
+h2Var.textContent = "What to do list";
+
+//STYLES
+
 
