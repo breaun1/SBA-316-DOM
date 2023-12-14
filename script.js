@@ -1,20 +1,11 @@
-//SELECTED HTML VARIABLES
-const body = document.querySelector("body")
-// const sec1 = document.querySelector("section");
-// const footer = document.querySelector("footer");
-const input = document.querySelector("input");
-const h2Var = document.querySelector("h2");
+let todo = JSON.parse(localStorage.getItem("todo")) || [];
+const todoInput = document.getElementById("todoInput");
+const todoList = document.getElementById("todoList");
+const todoCount = document.getElementById("todoCount");
+const addButton = document.querySelector(".btn");
+const deleteButton = document.getElementById("deleteButton");
+const body = document.querySelector("body");
 
-//ATTRIBUTES
-input.setAttribute("type", "text");
-input.placeholder = "What's on the schedule";
 
-//CLASSES
-input.classList.add = ("input-field");
-
-//TEXT-CONTENT
-h2Var.textContent = "What to do list";
-
-//STYLES
 
 
